@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estación Meteorológica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Estación Meteorológica" class="header-img">
+        <h1>Estación Meteorológica</h1>
+        <h3>Estaciones Meteorológicas Guays S.A.</h3>
+        
+    </header>
+
+    
+    <div class="container">
+        <h2>Medidas en tiempo real</h2>
+        <img id="connectionStatus" src="disconnected.png" alt="Estado de conexión" class="status-img">
+
+    </div>
+    <section class="indicators-container">
+        <div class="indicator">
+            <h3 class="indicator-title">Temperatura</h3>
+            <div id="temperature" class="indicator-value">0.0 °C</div>
+        </div>
+        <div class="indicator">
+            <h3 class="indicator-title">Humedad</h3>
+            <div id="humidity" class="indicator-value">0.0 %</div>
+        </div>
+        <div class="indicator">
+            <h3 class="indicator-title">Viento</h3>
+            <div id="windSpeed" class="indicator-value">0.0 km/h</div>
+        </div>
+        <div class="indicator">
+            <h3 class="indicator-title">Luz</h3>
+            <div id="light" class="indicator-value">0.0 Lux</div>
+        </div>
+        <div class="indicator">
+            <h3 class="indicator-title">CO2</h3>
+            <div id="co2" class="indicator-value">0.0 ppm</div>
+        </div>
+        <div class="indicator">
+            <h3 class="indicator-title">Presssure</h3>
+            <div id="pressure" class="indicator-value">0.0 Hpa</div>
+        </div>
+    </section>
+    <div class="info-container">
+        <!-- Imagen a la izquierda -->
+        <img src="entrepreneurs.jpeg" alt="Imagen de los estudiantes">
+
+        <!-- Texto a la derecha -->
+        <div class="text">
+            <h2>La historia de Germán, Pol y Herminio</h2>
+            <p><strong>Germán Bueno</strong> y <strong>Pol Pavo</strong> son dos estudiantes de ingeniería de la UPC que disfrutan enormemente de las clases de <strong>Electrónica Analógica</strong>. A pesar de los desafíos que plantea la asignatura, lo que realmente les apasiona es el estilo único de su profesor, <strong>Herminio</strong>.</p>
+            <p>En este entorno tan único, ambos estudiantes han encontrado inspiración para crear algo más allá de las aulas: una empresa llamada <span class="empresa">Estaciones Meteorológicas Guays S.A.</span> Con un toque de humor y mucha innovación, su objetivo es revolucionar el mercado de las estaciones meteorológicas, todo mientras se divierten y siguen aprendiendo de las enseñanzas de Herminio.</p>
+            <p><strong>¡El futuro de la ingeniería y la meteorología nunca fue tan divertido y lleno de posibilidades!</strong></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy;2025 Pol Pavo · German Bueno</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

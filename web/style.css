@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+}
+
+.header-img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* Estilo para el div principal que contiene todo */
+.info-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+/* Estilo para la imagen */
+.info-container img {
+    max-width: 500px;
+    margin-right: 30px;
+    border-radius: 8px;
+    width: 600px;
+    height: 400px;
+    object-fit: cover; /* Ajusta la imagen para que ocupe toda el área */
+    clip-path: inset(20px 10px 20px 10px); /* Recorta los bordes de la imagen */
+}
+
+/* Estilo para el texto */
+.info-container .text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Estilo para el nombre de la empresa */
+.empresa {
+    font-weight: bold;
+    color: #0073e6;
+}
+
+/* Estilo para el título de la sección */
+.info-container h2 {
+    margin-top: 0;
+    color: #333;
+    font-size: 24px;
+}
+.status-img{
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+    background-color: transparent;
+}
+.indicators-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.indicator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.indicator-title {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.indicator-value {
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#temperature .indicator-value {
+    background-color: #f28c28; /* Naranja */
+}
+
+#humidity .indicator-value {
+    background-color: #28a745; /* Verde */
+}
+
+#windSpeed .indicator-value {
+    background-color: #17a2b8; /* Azul */
+}
+
+#light .indicator-value {
+    background-color: #ffc107; /* Amarillo */
+}
+
+#co2 .indicator-value {
+    background-color: #dc3545; /* Rojo */
+}
+
+#h2 .indicator-value {
+    background-color: #6f42c1; /* Púrpura */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: white;
+    margin-top: 20px;
+}
+@media (max-width: 768px) {
+    .info-container {
+        width: 150px; /* Reducir el tamaño para pantallas más pequeñas */
+        flex-direction: column; /* Asegura que la imagen y el texto estén en columna */
+    }
+}
+@media (max-width: 480px) {
+    .info-containers {
+        justify-content: center; /* Centrar los elementos en pantallas muy pequeñas */
+    }
+
+    .info-container {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        margin-bottom: 20px; /* Espacio entre los elementos */
+    }}

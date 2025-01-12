@@ -1,0 +1,3 @@
+humidity_value = None if humidity.value() == float('inf') else humidity.value()
+        wind_speed = None if anemometre.value() == float('inf') else anemometre.value()
+        light_value = None if ldr.value() == float('inf') else ldr.value()
