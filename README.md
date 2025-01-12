@@ -57,7 +57,7 @@ Welcome to the **Estaciones Meteorologicas Guays S.A.**! This project leverages 
 ```
 
 ### Web Interface Screenshot
-![Web Interface](Access your link generated via Apache)
+![Web Interface](https://drive.google.com/file/d/1-LrZYuq4FvdSe3PlL7FU4ftI4qVPQpC9/view?usp=sharing)
 
 ---
 
